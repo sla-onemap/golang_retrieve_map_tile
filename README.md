@@ -5,19 +5,21 @@ This go application will allow you to generate the corresponding map tile (Not c
 
 ## Code Example
 
-How to run this go application?
+How do I run this go application?
 
-Ensure you have the required dependencies to run your go workspace.
+Ensure you have all the required dependencies to run your go workspace.
 Git import github.com/jessevdk/go-flags for command-line flags.
 
-After doing so, you could run by this command...
+After doing so, you could start running this application via...
 
-									To run: go run retrieveXYZTile.go -l lat,lng -z zoom
+									   go run retrieveXYZTile.go -l lat,lng -z zoom
 
 									Example: go run retrieveXYZTile.go -l 1.3,103.8 -z 19
 
 									
-									If you need help, go run retrieveXYZTile.go -help
+									If you need additional help, 
+
+									   go run retrieveXYZTile.go -help
 
 ## Motivation
 
